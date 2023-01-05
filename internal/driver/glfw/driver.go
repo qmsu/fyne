@@ -9,14 +9,14 @@ import (
 	"strings"
 	"sync"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/animation"
-	intapp "fyne.io/fyne/v2/internal/app"
-	"fyne.io/fyne/v2/internal/driver"
-	"fyne.io/fyne/v2/internal/driver/common"
-	"fyne.io/fyne/v2/internal/painter"
-	intRepo "fyne.io/fyne/v2/internal/repository"
-	"fyne.io/fyne/v2/storage/repository"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/internal/animation"
+	intapp "github.com/qmsu/fyne/v2/internal/app"
+	"github.com/qmsu/fyne/v2/internal/driver"
+	"github.com/qmsu/fyne/v2/internal/driver/common"
+	"github.com/qmsu/fyne/v2/internal/painter"
+	intRepo "github.com/qmsu/fyne/v2/internal/repository"
+	"github.com/qmsu/fyne/v2/storage/repository"
 )
 
 const mainGoroutineID = 1

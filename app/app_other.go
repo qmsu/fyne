@@ -1,3 +1,4 @@
+//go:build ci || (!linux && !darwin && !windows && !freebsd && !openbsd && !netbsd)
 // +build ci !linux,!darwin,!windows,!freebsd,!openbsd,!netbsd
 
 package app
@@ -6,8 +7,8 @@ import (
 	"errors"
 	"net/url"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/theme"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/theme"
 )
 
 func defaultVariant() fyne.ThemeVariant {

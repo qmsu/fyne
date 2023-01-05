@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"fyne.io/fyne/v2/cmd/fyne/internal/templates"
-	"fyne.io/fyne/v2/cmd/fyne/internal/util"
 	"github.com/jackmordaunt/icns"
 	"github.com/pkg/errors"
+	"github.com/qmsu/fyne/v2/cmd/fyne/internal/templates"
+	"github.com/qmsu/fyne/v2/cmd/fyne/internal/util"
 )
 
 type darwinData struct {

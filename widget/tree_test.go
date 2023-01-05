@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/test"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/test"
+	"github.com/qmsu/fyne/v2/theme"
+	"github.com/qmsu/fyne/v2/widget"
 
 	"github.com/stretchr/testify/assert"
 )

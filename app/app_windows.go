@@ -1,6 +1,5 @@
-// +build !ci
-
-// +build !android,!ios
+//go:build !ci && !android && !ios
+// +build !ci,!android,!ios
 
 package app
 
@@ -15,8 +14,8 @@ import (
 
 	"golang.org/x/sys/windows/registry"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/theme"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/theme"
 
 	"golang.org/x/sys/execabs"
 )

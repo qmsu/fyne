@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal"
-	"fyne.io/fyne/v2/internal/cache"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/canvas"
+	"github.com/qmsu/fyne/v2/internal"
+	"github.com/qmsu/fyne/v2/internal/cache"
 
 	"github.com/srwiley/oksvg"
 	"github.com/srwiley/rasterx"

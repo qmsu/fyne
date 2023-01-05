@@ -3,8 +3,8 @@ package data
 //go:generate fyne bundle -package data -o bundled.go assets
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/theme"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/theme"
 )
 
 // ThemedResource is a resource wrapper that will return an appropriate resource

@@ -1,3 +1,4 @@
+//go:build (!gles && !arm && !arm64 && !android && !ios && !mobile) || (darwin && !mobile && !ios)
 // +build !gles,!arm,!arm64,!android,!ios,!mobile darwin,!mobile,!ios
 
 package gl
@@ -11,10 +12,10 @@ import (
 
 	"github.com/go-gl/gl/v3.2-core/gl"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/theme"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/canvas"
+	"github.com/qmsu/fyne/v2/internal/cache"
+	"github.com/qmsu/fyne/v2/theme"
 )
 
 // Buffer represents a GL buffer

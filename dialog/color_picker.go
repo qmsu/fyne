@@ -3,13 +3,13 @@ package dialog
 import (
 	"image/color"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/container"
-	col "fyne.io/fyne/v2/internal/color"
-	"fyne.io/fyne/v2/layout"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/canvas"
+	"github.com/qmsu/fyne/v2/container"
+	col "github.com/qmsu/fyne/v2/internal/color"
+	"github.com/qmsu/fyne/v2/layout"
+	"github.com/qmsu/fyne/v2/theme"
+	"github.com/qmsu/fyne/v2/widget"
 )
 
 // newColorBasicPicker returns a component for selecting basic colors.

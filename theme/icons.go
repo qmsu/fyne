@@ -5,7 +5,7 @@ import (
 	"encoding/xml"
 	"image/color"
 
-	"fyne.io/fyne/v2"
+	"github.com/qmsu/fyne/v2"
 )
 
 const (

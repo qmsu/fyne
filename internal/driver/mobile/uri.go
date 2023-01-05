@@ -1,10 +1,11 @@
+//go:build !android
 // +build !android
 
 package mobile
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/storage"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/storage"
 )
 
 func nativeURI(uri string) fyne.URI {

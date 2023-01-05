@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"strings"
 
-	"fyne.io/fyne/v2"
+	"github.com/qmsu/fyne/v2"
 	"golang.org/x/mod/semver"
 
 	"golang.org/x/sys/execabs"

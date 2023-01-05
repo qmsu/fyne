@@ -5,11 +5,11 @@ import (
 	"image"
 	"math"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal"
-	"fyne.io/fyne/v2/internal/painter"
-	"fyne.io/fyne/v2/theme"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/canvas"
+	"github.com/qmsu/fyne/v2/internal"
+	"github.com/qmsu/fyne/v2/internal/painter"
+	"github.com/qmsu/fyne/v2/theme"
 
 	"github.com/goki/freetype"
 	"github.com/goki/freetype/truetype"

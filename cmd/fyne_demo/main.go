@@ -6,14 +6,14 @@ import (
 	"log"
 	"net/url"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/app"
-	"fyne.io/fyne/v2/cmd/fyne_demo/tutorials"
-	"fyne.io/fyne/v2/cmd/fyne_settings/settings"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/layout"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/app"
+	"github.com/qmsu/fyne/v2/cmd/fyne_demo/tutorials"
+	"github.com/qmsu/fyne/v2/cmd/fyne_settings/settings"
+	"github.com/qmsu/fyne/v2/container"
+	"github.com/qmsu/fyne/v2/layout"
+	"github.com/qmsu/fyne/v2/theme"
+	"github.com/qmsu/fyne/v2/widget"
 )
 
 const preferenceCurrentTutorial = "currentTutorial"

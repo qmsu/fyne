@@ -1,8 +1,9 @@
+//go:build !darwin || no_native_menus
 // +build !darwin no_native_menus
 
 package glfw
 
-import "fyne.io/fyne/v2"
+import "github.com/qmsu/fyne/v2"
 
 func hasNativeMenu() bool {
 	return false

@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/driver/desktop"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/internal/driver"
-	"fyne.io/fyne/v2/internal/test"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/driver/desktop"
+	"github.com/qmsu/fyne/v2/internal/cache"
+	"github.com/qmsu/fyne/v2/internal/driver"
+	"github.com/qmsu/fyne/v2/internal/test"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

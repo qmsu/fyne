@@ -7,8 +7,8 @@ import (
 	"sync"
 	"testing"
 
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/internal/driver/mobile/gl"
+	"github.com/qmsu/fyne/v2/internal/cache"
+	"github.com/qmsu/fyne/v2/internal/driver/mobile/gl"
 )
 
 // go test -race

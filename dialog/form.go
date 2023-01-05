@@ -1,11 +1,11 @@
 package dialog
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/layout"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/container"
+	"github.com/qmsu/fyne/v2/layout"
+	"github.com/qmsu/fyne/v2/theme"
+	"github.com/qmsu/fyne/v2/widget"
 )
 
 // formDialog is a simple dialog window for displaying FormItems inside a form.

@@ -1,6 +1,5 @@
-// +build !ci
-
-// +build !ios
+//go:build !ci && !ios
+// +build !ci,!ios
 
 package app
 
@@ -20,8 +19,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/theme"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/theme"
 )
 
 func defaultVariant() fyne.ThemeVariant {

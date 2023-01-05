@@ -1,3 +1,4 @@
+//go:build (linux || openbsd || freebsd || netbsd) && !android
 // +build linux openbsd freebsd netbsd
 // +build !android
 
@@ -7,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"fyne.io/fyne/v2/storage"
+	"github.com/qmsu/fyne/v2/storage"
 	"github.com/stretchr/testify/assert"
 )
 

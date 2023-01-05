@@ -1,5 +1,5 @@
+//go:build !ci && (linux || openbsd || freebsd || netbsd) && !android
 // +build !ci
-
 // +build linux openbsd freebsd netbsd
 // +build !android
 
@@ -12,8 +12,8 @@ import (
 
 	"github.com/godbus/dbus/v5"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/theme"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/theme"
 )
 
 func defaultVariant() fyne.ThemeVariant {

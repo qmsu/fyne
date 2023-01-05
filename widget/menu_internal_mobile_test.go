@@ -1,3 +1,4 @@
+//go:build mobile
 // +build mobile
 
 package widget
@@ -5,8 +6,8 @@ package widget
 import (
 	"testing"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/test"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/test"
 
 	"github.com/stretchr/testify/assert"
 )

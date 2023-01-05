@@ -1,3 +1,4 @@
+//go:build (linux || openbsd || freebsd || netbsd) && !android
 // +build linux openbsd freebsd netbsd
 // +build !android
 
@@ -7,8 +8,8 @@ import (
 	"fmt"
 	"os"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/storage"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/storage"
 
 	"golang.org/x/sys/execabs"
 )

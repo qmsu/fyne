@@ -1,3 +1,4 @@
+//go:build !ios
 // +build !ios
 
 package dialog
@@ -5,8 +6,8 @@ package dialog
 import (
 	"os"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/storage"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/storage"
 )
 
 func getFavoriteLocations() (map[string]fyne.ListableURI, error) {

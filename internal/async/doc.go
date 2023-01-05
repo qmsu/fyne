@@ -20,7 +20,7 @@
 // 		"fyne_canvasobject.go": data{
 // 			Type: "fyne.CanvasObject",
 // 			Name: "CanvasObject",
-// 			Imports: `import "fyne.io/fyne/v2"`,
+// 			Imports: `import "github.com/qmsu/fyne/v2"`,
 // 		},
 // 		"func.go": data{
 // 			Type:    "func()",

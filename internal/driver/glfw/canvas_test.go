@@ -1,5 +1,5 @@
-// +build !ci
-// +build !mobile
+//go:build !ci && !mobile
+// +build !ci,!mobile
 
 package glfw
 
@@ -7,11 +7,11 @@ import (
 	"image/color"
 	"testing"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/canvas"
+	"github.com/qmsu/fyne/v2/container"
+	"github.com/qmsu/fyne/v2/theme"
+	"github.com/qmsu/fyne/v2/widget"
 
 	"github.com/stretchr/testify/assert"
 )

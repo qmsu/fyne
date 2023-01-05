@@ -1,9 +1,10 @@
+//go:build !ios && !android
 // +build !ios,!android
 
 package mobile
 
 import (
-	"fyne.io/fyne/v2"
+	"github.com/qmsu/fyne/v2"
 )
 
 func canListURI(fyne.URI) bool {

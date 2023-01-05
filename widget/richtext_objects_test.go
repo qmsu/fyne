@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/test"
+	"github.com/qmsu/fyne/v2/canvas"
+	"github.com/qmsu/fyne/v2/test"
 	"github.com/stretchr/testify/assert"
 )
 

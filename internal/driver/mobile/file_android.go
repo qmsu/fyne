@@ -1,3 +1,4 @@
+//go:build android
 // +build android
 
 package mobile
@@ -22,9 +23,9 @@ import (
 	"os"
 	"unsafe"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/driver/mobile/app"
-	"fyne.io/fyne/v2/storage/repository"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/internal/driver/mobile/app"
+	"github.com/qmsu/fyne/v2/storage/repository"
 )
 
 type javaStream struct {

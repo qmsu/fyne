@@ -1,6 +1,5 @@
-// +build !ci
-
-// +build ios
+//go:build !ci && ios
+// +build !ci,ios
 
 package app
 
@@ -20,7 +19,7 @@ import (
 	"path/filepath"
 	"unsafe"
 
-	"fyne.io/fyne/v2"
+	"github.com/qmsu/fyne/v2"
 )
 
 func rootConfigDir() string {

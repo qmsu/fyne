@@ -3,7 +3,7 @@ package widget
 import (
 	"sync"
 
-	"fyne.io/fyne/v2/data/binding"
+	"github.com/qmsu/fyne/v2/data/binding"
 )
 
 // basicBinder stores a DataItem and a function to be called when it changes.

@@ -1,8 +1,9 @@
+//go:build !ios && !android && !wayland
 // +build !ios,!android,!wayland
 
 package mobile
 
-import "fyne.io/fyne/v2"
+import "github.com/qmsu/fyne/v2"
 
 const tapYOffset = 0 // no finger compensation on desktop (simulation)
 

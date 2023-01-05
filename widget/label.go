@@ -1,9 +1,9 @@
 package widget
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/data/binding"
-	"fyne.io/fyne/v2/internal/cache"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/data/binding"
+	"github.com/qmsu/fyne/v2/internal/cache"
 )
 
 // Label widget is a label component with appropriate padding and layout.

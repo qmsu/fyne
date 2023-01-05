@@ -3,7 +3,7 @@ package common
 import (
 	"sync"
 
-	"fyne.io/fyne/v2"
+	"github.com/qmsu/fyne/v2"
 )
 
 // Window defines common functionality for windows.

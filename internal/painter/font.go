@@ -4,9 +4,9 @@ import (
 	"image"
 	"sync"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/theme"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/internal/cache"
+	"github.com/qmsu/fyne/v2/theme"
 
 	"github.com/goki/freetype/truetype"
 	"golang.org/x/image/font"

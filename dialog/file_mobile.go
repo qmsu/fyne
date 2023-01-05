@@ -1,3 +1,4 @@
+//go:build ios || android
 // +build ios android
 
 package dialog
@@ -5,9 +6,9 @@ package dialog
 import (
 	"os"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/driver/mobile"
-	"fyne.io/fyne/v2/storage"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/internal/driver/mobile"
+	"github.com/qmsu/fyne/v2/storage"
 )
 
 func (f *fileDialog) getPlaces() []favoriteItem {

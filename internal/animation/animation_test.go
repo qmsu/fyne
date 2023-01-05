@@ -1,3 +1,4 @@
+//go:build !ci || !darwin
 // +build !ci !darwin
 
 package animation
@@ -9,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/v2"
+	"github.com/qmsu/fyne/v2"
 )
 
 func TestGLDriver_StartAnimation(t *testing.T) {

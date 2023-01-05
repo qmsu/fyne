@@ -1,8 +1,9 @@
+//go:build !linux
 // +build !linux
 
 package glfw
 
-import "fyne.io/fyne/v2"
+import "github.com/qmsu/fyne/v2"
 
 func (w *window) platformResize(canvasSize fyne.Size) {
 	d, ok := fyne.CurrentApp().Driver().(*gLDriver)

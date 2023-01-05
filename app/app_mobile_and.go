@@ -1,6 +1,5 @@
-// +build !ci
-
-// +build android
+//go:build !ci && android
+// +build !ci,android
 
 package app
 
@@ -20,8 +19,8 @@ import (
 	"path/filepath"
 	"unsafe"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/driver/mobile/app"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/internal/driver/mobile/app"
 )
 
 func (a *fyneApp) OpenURL(url *url.URL) error {

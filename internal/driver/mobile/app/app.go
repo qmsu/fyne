@@ -2,18 +2,19 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build linux || darwin || windows
 // +build linux darwin windows
 
 package app
 
 import (
-	"fyne.io/fyne/v2/internal/async"
-	"fyne.io/fyne/v2/internal/driver/mobile/event/lifecycle"
-	"fyne.io/fyne/v2/internal/driver/mobile/event/size"
-	"fyne.io/fyne/v2/internal/driver/mobile/gl"
+	"github.com/qmsu/fyne/v2/internal/async"
+	"github.com/qmsu/fyne/v2/internal/driver/mobile/event/lifecycle"
+	"github.com/qmsu/fyne/v2/internal/driver/mobile/event/size"
+	"github.com/qmsu/fyne/v2/internal/driver/mobile/gl"
 
 	// Initialize necessary mobile functionality, such as logging.
-	_ "fyne.io/fyne/v2/internal/driver/mobile/mobileinit"
+	_ "github.com/qmsu/fyne/v2/internal/driver/mobile/mobileinit"
 )
 
 // Main is called by the main.main function to run the mobile application.

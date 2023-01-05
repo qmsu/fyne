@@ -1,3 +1,4 @@
+//go:build !android && !ios && !mobile
 // +build !android,!ios,!mobile
 
 package app
@@ -11,8 +12,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/theme"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/theme"
 )
 
 func TestDefaultTheme(t *testing.T) {

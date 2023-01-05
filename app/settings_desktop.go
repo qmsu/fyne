@@ -1,3 +1,4 @@
+//go:build !android && !ios && !mobile
 // +build !android,!ios,!mobile
 
 package app
@@ -6,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"fyne.io/fyne/v2"
 	"github.com/fsnotify/fsnotify"
+	"github.com/qmsu/fyne/v2"
 )
 
 func watchFileAddTarget(watcher *fsnotify.Watcher, path string) {

@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/cmd/fyne/internal/mobile"
-	"fyne.io/fyne/v2/cmd/fyne/internal/templates"
-	"fyne.io/fyne/v2/cmd/fyne/internal/util"
 	"github.com/pkg/errors"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/cmd/fyne/internal/mobile"
+	"github.com/qmsu/fyne/v2/cmd/fyne/internal/templates"
+	"github.com/qmsu/fyne/v2/cmd/fyne/internal/util"
 	"golang.org/x/sys/execabs"
 )
 

@@ -6,12 +6,12 @@ import (
 	"math"
 	"strings"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	col "fyne.io/fyne/v2/internal/color"
-	"fyne.io/fyne/v2/layout"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/canvas"
+	col "github.com/qmsu/fyne/v2/internal/color"
+	"github.com/qmsu/fyne/v2/layout"
+	"github.com/qmsu/fyne/v2/theme"
+	"github.com/qmsu/fyne/v2/widget"
 )
 
 // ColorPickerDialog is a simple dialog window that displays a color picker.

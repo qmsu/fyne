@@ -1,3 +1,4 @@
+//go:build !ci && !mobile && (!darwin || no_native_menus)
 // +build !ci
 // +build !mobile
 // +build !darwin no_native_menus
@@ -7,8 +8,8 @@ package glfw
 import (
 	"testing"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/container"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/container"
 
 	"github.com/stretchr/testify/assert"
 )

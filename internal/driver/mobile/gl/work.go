@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build darwin || linux || openbsd || freebsd
 // +build darwin linux openbsd freebsd
 
 package gl
@@ -45,7 +46,7 @@ import "C"
 import (
 	"unsafe"
 
-	"fyne.io/fyne/v2/internal/async"
+	"github.com/qmsu/fyne/v2/internal/async"
 )
 
 const workbufLen = 3

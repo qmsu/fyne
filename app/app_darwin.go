@@ -1,3 +1,4 @@
+//go:build !ci
 // +build !ci
 
 package app
@@ -18,7 +19,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"fyne.io/fyne/v2"
+	"github.com/qmsu/fyne/v2"
 	"golang.org/x/sys/execabs"
 )
 

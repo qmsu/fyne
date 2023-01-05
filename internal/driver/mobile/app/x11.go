@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build linux && !android
 // +build linux,!android
 
 package app
@@ -24,10 +25,10 @@ import (
 	"runtime"
 	"time"
 
-	"fyne.io/fyne/v2/internal/driver/mobile/event/lifecycle"
-	"fyne.io/fyne/v2/internal/driver/mobile/event/paint"
-	"fyne.io/fyne/v2/internal/driver/mobile/event/size"
-	"fyne.io/fyne/v2/internal/driver/mobile/event/touch"
+	"github.com/qmsu/fyne/v2/internal/driver/mobile/event/lifecycle"
+	"github.com/qmsu/fyne/v2/internal/driver/mobile/event/paint"
+	"github.com/qmsu/fyne/v2/internal/driver/mobile/event/size"
+	"github.com/qmsu/fyne/v2/internal/driver/mobile/event/touch"
 )
 
 func init() {

@@ -1,3 +1,4 @@
+//go:build !ios && !android
 // +build !ios,!android
 
 package mobile
@@ -5,9 +6,9 @@ package mobile
 import (
 	"io"
 
-	"fyne.io/fyne/v2"
-	intRepo "fyne.io/fyne/v2/internal/repository"
-	"fyne.io/fyne/v2/storage/repository"
+	"github.com/qmsu/fyne/v2"
+	intRepo "github.com/qmsu/fyne/v2/internal/repository"
+	"github.com/qmsu/fyne/v2/storage/repository"
 )
 
 func existsURI(fyne.URI) (bool, error) {

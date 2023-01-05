@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"fyne.io/fyne/v2"
-	_ "fyne.io/fyne/v2/test"
+	"github.com/qmsu/fyne/v2"
+	_ "github.com/qmsu/fyne/v2/test"
 	"github.com/stretchr/testify/assert"
 
 	"golang.org/x/sys/execabs"

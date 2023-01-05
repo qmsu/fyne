@@ -5,8 +5,8 @@ import (
 	"image"
 	"math"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/driver"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/internal/driver"
 )
 
 // Painter defines the functionality of our OpenGL based renderer

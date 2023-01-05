@@ -1,3 +1,4 @@
+//go:build !no_native_menus
 // +build !no_native_menus
 
 package glfw
@@ -5,7 +6,7 @@ package glfw
 import (
 	"unsafe"
 
-	"fyne.io/fyne/v2"
+	"github.com/qmsu/fyne/v2"
 )
 
 /*

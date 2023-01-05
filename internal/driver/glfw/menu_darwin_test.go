@@ -1,6 +1,5 @@
-// +build !ci
-// +build !no_native_menus
-// +build !mobile
+//go:build !ci && !no_native_menus && !mobile
+// +build !ci,!no_native_menus,!mobile
 
 package glfw
 
@@ -11,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/v2"
+	"github.com/qmsu/fyne/v2"
 )
 
 func TestDarwinMenu(t *testing.T) {

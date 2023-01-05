@@ -8,13 +8,13 @@ import (
 	"os"
 	"testing"
 
-	"fyne.io/fyne/v2/internal/painter"
 	"github.com/goki/freetype"
 	"github.com/goki/freetype/truetype"
+	"github.com/qmsu/fyne/v2/internal/painter"
 	"github.com/stretchr/testify/require"
 
-	"fyne.io/fyne/v2/internal/test"
-	"fyne.io/fyne/v2/theme"
+	"github.com/qmsu/fyne/v2/internal/test"
+	"github.com/qmsu/fyne/v2/theme"
 
 	"github.com/stretchr/testify/assert"
 )

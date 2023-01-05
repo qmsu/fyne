@@ -1,5 +1,5 @@
-// +build !ci
-// +build !mobile
+//go:build !ci && !mobile
+// +build !ci,!mobile
 
 package glfw
 
@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"fyne.io/fyne/v2"
+	"github.com/qmsu/fyne/v2"
 
 	"github.com/stretchr/testify/assert"
 )

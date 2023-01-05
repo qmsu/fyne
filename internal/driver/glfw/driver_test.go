@@ -1,5 +1,5 @@
-// +build !ci
-// +build !mobile
+//go:build !ci && !mobile
+// +build !ci,!mobile
 
 package glfw
 
@@ -7,10 +7,10 @@ import (
 	"sync"
 	"testing"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/widget"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/container"
+	"github.com/qmsu/fyne/v2/internal/cache"
+	"github.com/qmsu/fyne/v2/widget"
 
 	"github.com/stretchr/testify/assert"
 )

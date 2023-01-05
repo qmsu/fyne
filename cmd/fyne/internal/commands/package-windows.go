@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"fyne.io/fyne/v2/cmd/fyne/internal/templates"
 	ico "github.com/Kodeworks/golang-image-ico"
 	"github.com/josephspurrier/goversioninfo"
 	"github.com/pkg/errors"
+	"github.com/qmsu/fyne/v2/cmd/fyne/internal/templates"
 	"golang.org/x/sys/execabs"
 )
 

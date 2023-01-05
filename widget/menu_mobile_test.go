@@ -1,3 +1,4 @@
+//go:build mobile
 // +build mobile
 
 package widget_test
@@ -6,11 +7,11 @@ import (
 	"image/color"
 	"testing"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	internalWidget "fyne.io/fyne/v2/internal/widget"
-	"fyne.io/fyne/v2/test"
-	"fyne.io/fyne/v2/widget"
+	"github.com/qmsu/fyne/v2"
+	"github.com/qmsu/fyne/v2/canvas"
+	internalWidget "github.com/qmsu/fyne/v2/internal/widget"
+	"github.com/qmsu/fyne/v2/test"
+	"github.com/qmsu/fyne/v2/widget"
 )
 
 func TestMenu_Layout(t *testing.T) {

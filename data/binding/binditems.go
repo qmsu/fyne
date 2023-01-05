@@ -3,7 +3,7 @@
 
 package binding
 
-import "fyne.io/fyne/v2"
+import "github.com/qmsu/fyne/v2"
 
 // Bool supports binding a bool value.
 //
